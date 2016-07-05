@@ -50,7 +50,7 @@ ul.social li i:hover{
 }
 .header-bottom p{
 	font-weight: 400;
-	color: #FFF;
+	color: #000;
 	font-size: 1.2em;
 }
 ul.social li i.sc1{
@@ -84,7 +84,7 @@ ul.social li i.sc5:hover{
 	background-position:-104px -24px;
 }
 .header-bottom{
-	padding:5em 0 0;
+	padding:5em 0 2em;
 }
 .header-bottom h1,.header-bottom h2{
 	font-family: 'Open Sans', sans-serif;
@@ -95,6 +95,7 @@ ul.social li i.sc5:hover{
 }
 .header-bottom h2{
 	font-size:60px;
+	padding-bottom: 2em;
 }
 .header-bottom h2 span{
 	color:#f6fcd7;
