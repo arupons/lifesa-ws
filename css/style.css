@@ -1,3 +1,4 @@
+
 /*
 Author: W3layout
 Author URL: http://w3layouts.com
@@ -21,12 +22,17 @@ body{
 	text-align: center;
 	padding:2em 0 10.3em;
 }
+.logol {
+	width:  50em;
+	height: 38em;
+}
 .logo p{
 	font-weight: 600;
 	font-size: 20px;
 	color: #000;
 	margin-bottom: 10px;
 }
+.subNavBtn {}
 ul.social li{
 	display: inline-block;
 }
@@ -53,6 +59,7 @@ ul.social li i:hover{
 	color: #000;
 	font-size: 1.2em;
 }
+
 ul.social li i.sc1{
 	background-position:-6px 2px;
 }
@@ -84,16 +91,19 @@ ul.social li i.sc5:hover{
 	background-position:-104px -24px;
 }
 .header-bottom{
-	padding:5em 0 2em;
+	padding:3em 0 1.5em;
 }
 .header-bottom h1,.header-bottom h2{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 800;
 	font-size:70px;
 	color:#202428;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.header-bottom h1{
+	/*text-shadow: 0 0 20px #fefcc9, 2px -2px 3px #feec85, -4px -4px 5px #ffae34, 5px -10px 6px #ec760c, -5px -12px 8px #cd4606, 0 -15px 20px #973716, 2px -15px 20px #451b0e;*/
 }
 .header-bottom h2{
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	font-size:60px;
 	padding-bottom: 2em;
 }
@@ -103,7 +113,7 @@ ul.social li i.sc5:hover{
 /*---- Header part Starts Here -----*/
 /*----- Navigation part starts Here ---*/
 .navbar-custom {
-	background:#202428;
+	background: #e58028;/*#202428;*/
 }
 .subMenu {
 	position: absolute;
@@ -113,7 +123,7 @@ ul.social li i.sc5:hover{
 .navbar-nav>li>a {
 	padding: 0 !important;
 	margin: 15px 0 0 20px;
-	color:#454646;
+	color:#b4b5b5; /*454646;*/
 	font-size: 1.4em;
 	line-height:52px;
 }
@@ -131,6 +141,7 @@ a#sTop {
 }
 .navbar-nav li.active a{
 	color:#fff;
+	text-shadow: 3px 3px 2px #e2a900;
 }
 
 .navbar-nav>li>a:hover{
@@ -295,87 +306,64 @@ a#sTop {
 	bottom: 5px;
 	overflow: hidden;
 }
-.ca-icon{
+div[class^='ca-icon']{
 	width:100%;
 	height: 200px;
 	display: block;
 	position: relative;
 	margin: 0 auto;
-	background: transparent url(../images/pic12.jpg) no-repeat center center;
 	margin-bottom: 5px;
 	background-size:contain;
 }
 .ca-icon1{
-	width:100%;
-	height: 200px;
-	display: block;
-	position: relative;
-	margin: 0 auto;
-	background: transparent url(../images/pic11.jpg) no-repeat center center;
-	margin-bottom: 5px;
-	background-size:contain;
+	background: transparent url(../images/productos/CABESTRILLO.jpg) no-repeat center center;
 }
 .ca-icon2{
-	width:100%;
-	height: 200px;
-	display: block;
-	position: relative;
-	margin: 0 auto;
-	background: transparent url(../images/pic10.jpg) no-repeat center center;
-	margin-bottom: 5px;
-	background-size:contain;
+	background: transparent url(../images/productos/GUANTES.jpg) no-repeat center center;
 }
 .ca-icon3{
-	width:100%;
-	height: 200px;
-	display: block;
-	position: relative;
-	margin: 0 auto;
-	background: transparent url(../images/pic14.jpg) no-repeat center center;
-	margin-bottom: 5px;
-	background-size:contain;
+	background: transparent url(../images/productos/BISTURI.jpg) no-repeat center center;
 }
 .ca-icon4{
-	width:100%;
-	height: 200px;
-	display: block;
-	position: relative;
-	margin: 0 auto;
-	background: transparent url(../images/pic15.jpg) no-repeat center center;
-	margin-bottom: 5px;
-	background-size:contain;
+	background: transparent url(../images/productos/CATHETER.jpg) no-repeat center center;
 }
 .ca-icon5{
-	width:100%;
-	height: 200px;
-	display: block;
-	position: relative;
-	margin: 0 auto;
-	background: transparent url(../images/pic16.jpg) no-repeat center center;
-	margin-bottom: 5px;
-	background-size:contain;
+	background: transparent url(../images/productos/ESPINOCAN.jpg) no-repeat center center;
 }
 .ca-icon6{
-	width:100%;
-	height: 200px;
-	display: block;
-	position: relative;
-	margin: 0 auto;
-	background: transparent url(../images/pic17.jpg) no-repeat center center;
-	margin-bottom: 5px;
-	background-size:contain;
+	background: transparent url(../images/productos/llave3v.jpg) no-repeat center center;
 }
 .ca-icon7{
-	width:100%;
-	height: 200px;
-	display: block;
-	position: relative;
-	margin: 0 auto;
-	background: transparent url(../images/pic17.jpg) no-repeat center center;
-	margin-bottom: 5px;
-	background-size:contain;
+	background: transparent url(../images/productos/PERICAN.jpg) no-repeat center center;
 }
-.ca-item-2 .ca-icon{
+.ca-icon8{
+	background: transparent url(../images/productos/CATHETER.jpg) no-repeat center center;
+}
+.ca-icon9{
+	background: transparent url(../images/productos/ESPINOCAN.jpg) no-repeat center center;
+}
+.ca-icon10{
+	background: transparent url(../images/productos/llave3v.jpg) no-repeat center center;
+}
+.ca-icon11{
+	background: transparent url(../images/productos/PERICAN.jpg) no-repeat center center;
+}
+.ca-icon12{
+	background: transparent url(../images/productos/GUANTES.jpg) no-repeat center center;
+}
+.ca-icon13{
+	background: transparent url(../images/productos/CABESTRILLO.jpg) no-repeat center center;
+}
+.ca-icon14{
+	background: transparent url(../images/productos/CABESTRILLO.jpg) no-repeat center center;
+}
+.ca-icon15{
+	background: transparent url(../images/productos/ESPINOCAN.jpg) no-repeat center center;
+}
+.ca-icon16{
+	background: transparent url(../images/productos/llave3v.jpg) no-repeat center center;
+}
+/*.ca-item-2 .ca-icon{
 	background-image:url(../images/pic10.jpg);
 }
 .ca-item-2 .ca-icon1{
@@ -404,7 +392,7 @@ a#sTop {
 }
 .ca-item-4 .ca-icon{
 	background-image:url(../images/pic9.jpg);
-}
+}*/
 .ca-content-wrapper{
 	background:ghostwhite;
 	position:absolute;
@@ -498,15 +486,16 @@ ul.icon1 li h4{
 	margin:0px 0px -18px 0px;
 	padding:0px;
 }
-h4.boxy2{
+h4.red{
 	color:red;
 }
 ul.icon1 li small{
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight:300;
-	font-size:40px;
+	font-size:30px;
 	text-transform:uppercase;
 	margin-top:0px;
+	text-align: justify;
 }
 .desc h4{
 	font-weight:800;
@@ -938,7 +927,7 @@ ul.icon1 li small{
 		font-size: 18px;
 	}
 	.services-row-column small {
-		font-size: 14px
+		font-size: 11px
 	}
 	ul.icon1 li small {
 		font-size: 22px;

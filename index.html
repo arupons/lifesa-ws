@@ -7,9 +7,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Usethis Bootstarp Website Template | Home :: w3layouts</title>
+<title>LIFAMED</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<link href="css/shadows.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
 <!-- Custom Theme files -->
@@ -26,6 +27,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <script src="js/easing.js"></script>
 	<script type="text/javascript" 	src="js/jquery.smint.js"></script>
+	<script type="text/javascript" 	src="js/menu.js"></script>
 		<script type="text/javascript">
 			$(document).ready( function() {
 			    $('.subMenu').smint({
@@ -36,10 +38,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </head>
 <body>
 	<!-- Header srarts Here -->
-	<div class="header sTop" id="home">
-		<div class="container">
+	<a href="#myservices"><div class="header sTop" id="home">
+		<div class="container" >
 			<div class="logo" >
-				 <a href="index.html"><img src="images/logo.png" alt=""></a>
+				 <a href="#myservices"><img class="logol" src="images/logo.png" alt=""></a>
 				 <p> Distribuci&oacute;n de insumos m&eacute;dicos </p>
 			</div>
 			<div class="social-icons">
@@ -51,14 +53,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li><i class="sc5"></i></li>
 				</ul>
 			</div>
-			<div class="header-bottom">
+			<!--<div class="header-bottom">
 				<h1> LIFAMED </h1>
-				<h2> Distribuidora de <span> INSUMOS M&Eacute;DICOS</span></h2>
+				<h2> <span> INSUMOS M&Eacute;DICOS</span></h2>
 				<a href="#myservices" class="scroll"><img src="images/mouse-black.png" /></a>
 				<p>Scroll</p>
-			</div>
+			</div>-->
 		</div>
-		</div>	
+	</div></a>
 	<!-- Header srarts Here -->
 	<!-- Navigation Starts Here -->
 	<nav class="subMenu navbar-custom navbar-scroll-top smint" role="navigation" style="position: absolute; top: 737px;">
@@ -74,13 +76,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	                <ul class="nav navbar-nav">
 	                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 	                    <li class="page-scroll">
-	                        <a id="sTop" class="subNavBtn active" href="#">Inicio</a>
+	                        <a id="sTop" class="subNavBtn" href="#">Inicio</a>
 	                    </li>
 	                    <li class="active">
-	                        <a id="s1" class="subNavBtn" href="#">Servicios</a>
+	                        <a id="s1" class="subNavBtn" href="#services">Servicios</a>
 	                    </li>
 	                    <li class="page-scroll">
-	                        <a id="s2" class="subNavBtn" href="#">Productos</a>
+	                        <a id="s2" class="subNavBtn" href="#mywork">Productos</a>
 	                    </li>
 	                    <li class="page-scroll">
 	                        <a id="s3" class="subNavBtn" href="#">Informaci&oacute;n</a>
@@ -107,19 +109,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<h3>Servicios</h3>
 				<div class="col-md-4 services-row-column">
 					<i class="icon1"></i>
-					<h4><a hrerf="#">Creative Design</a></h4>
+					<h4><a hrerf="#">Insumos M&eacute;dicos</a></h4>
 					<small>Subhead Goes Here</small>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 				</div>
 				<div class="col-md-4 services-row-column">
 					<i class="icon2"></i>
-					<h4><a hrerf="#">Excellent Support</a></h4>
+					<h4><a hrerf="#">Medicinas</a></h4>
 					<small>Subhead Goes Here</small>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 				</div>
 				<div class="col-md-4 services-row-column">
 					<i class="icon3"></i>
-					<h4><a hrerf="#">Responsive Design</a></h4>
+					<h4><a hrerf="#">Equipos M&eacute;dicos</a></h4>
 					<small>Subhead Goes Here</small>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 				</div>
@@ -133,57 +135,56 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container">
 			<div class="work-top">
 				<h3>Productos</h3>
-				<small></small>
 			</div>
 			<!-- GAllery -->
 			<div id="ca-container" class="ca-container">
 				    <div class="ca-wrapper">
-				         <div class="ca-item ca-item-1">
+				         <div class="ca-item">
 						   <div class="ca-item-main">
-								<div class="ca-icon"> </div>
 								<div class="ca-icon1"> </div>
-							</div>
-						  </div>
-						<div class="ca-item ca-item-2">
-							<div class="ca-item-main">
-								<div class="ca-icon"> </div>
 								<div class="ca-icon2"> </div>
 							</div>
-						</div>
-						<div class="ca-item ca-item-3">
+						  </div>
+						<div class="ca-item">
 							<div class="ca-item-main">
-								<div class="ca-icon"> </div>
 								<div class="ca-icon3"> </div>
-							</div>
-						</div>
-						<div class="ca-item ca-item-4">
-							<div class="ca-item-main">
-								<div class="ca-icon"> </div>
 								<div class="ca-icon4"> </div>
-						     </div>
-						</div>
-						<div class="ca-item ca-item-5">
-							<div class="ca-item-main">
-								<div class="ca-icon"> </div>
-								<div class="ca-icon5"> </div>
 							</div>
 						</div>
-						<div class="ca-item ca-item-6">
+						<div class="ca-item">
 							<div class="ca-item-main">
-								<div class="ca-icon"> </div>
+								<div class="ca-icon5"> </div>
 								<div class="ca-icon6"> </div>
 							</div>
 						</div>
-						<div class="ca-item ca-item-7">
+						<div class="ca-item">
 							<div class="ca-item-main">
-								<div class="ca-icon"> </div>
 								<div class="ca-icon7"> </div>
+								<div class="ca-icon8"> </div>
+						     </div>
+						</div>
+						<div class="ca-item">
+							<div class="ca-item-main">
+								<div class="ca-icon9"> </div>
+								<div class="ca-icon10"> </div>
 							</div>
 						</div>
-						<div class="ca-item ca-item-8">
+						<div class="ca-item">
 							<div class="ca-item-main">
-								<div class="ca-icon"> </div>
-								<div class="ca-icon"> </div>
+								<div class="ca-icon11"> </div>
+								<div class="ca-icon12"> </div>
+							</div>
+						</div>
+						<div class="ca-item">
+							<div class="ca-item-main">
+								<div class="ca-icon13"> </div>
+								<div class="ca-icon14"> </div>
+							</div>
+						</div>
+						<div class="ca-item">
+							<div class="ca-item-main">
+								<div class="ca-icon15"> </div>
+								<div class="ca-icon16"> </div>
 							</div>
 						</div>
 			    </div>
@@ -199,7 +200,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container">
 		<div class="wrap">
 			<h3 class="m_2">Informaci&oacute;n</h3>	
-			<small class="m-2-s">and other <span> relevent info</span> </small>
 		<div class="career-top"
 		</div>
 			  <div class="gallery autoplay items-3">
@@ -210,37 +210,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			         <div class="box1">
 							<div class="col_1_of_3 span_1_of_3">
 								<ul class="icon1">
-									<li><h4>915</h4>
-										<small>Projects</small>
-									</li>
-									<li><h4>652</h4>
-										<small>Clients</small>
-									</li>
-									<li><h4>2578</h4>
-										<small>Coffe Cups</small>
+									<li><h4 class="red">Misi&oacute;n</h4><br />
+										<center><small>Contribuir al mejoramiento de la salud de las familias, mediante la comercializaci&oacute;n de insumos m&eacute;dicos y productos medicinales de calidad, garantizando las condiciones y canales de distribuci&oacute;n hasta sus clientes, cumpliendo los estrictos est&aacute;ndares de control y calidad, que permita satisfacer las necesidades del consumidor.</small></center>
 									</li>
 										<div class="desc">
-										</div>
-										<div class="clear"></div>
-									</li>
-								</ul>
-							</div>
-							<div class="col_1_of_3 span_1_of_3">
-								<ul class="icon1">
-										<div class="desc">
-											<h4>What My Clients say</h4>
-											<p>Testimonials and <span>awards</span></p>
-										</div>
-										<div class="clear"></div>
-									</li>
-								</ul>
-							</div>
-							<div class="col_1_of_3 span_1_of_3">
-								<ul class="icon1">
-										<div class="desc">
-											<h5>Anghe A.</h5>
-											<small>CEO & Founder TOUCH MEDIA</small>
-											<p class="cursive">"Great service. I love how fast I get  what I want.And don't even get me started about the skil.Clearly better than all the designers I've worked with"</p>
 										</div>
 										<div class="clear"></div>
 									</li>
@@ -250,83 +223,37 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 			    </figure>
 				<figure class="item">
-			      <div class="box1">
-							<div class="col_1_of_3 span_1_of_3">
-								<ul class="icon1">
-									<li><h4  class="boxy2">915</h4>
-										<small>Projects</small>
-									</li>
-									<li><h4  class="boxy2">652</h4>
-										<small>Clients</small>
-									</li>
-									<li><h4  class="boxy2">2578</h4>
-										<small>Coffe Cups</small>
-									</li>
-										<div class="desc">
-										</div>
-										<div class="clear"></div>
-									</li>
-								</ul>
-							</div>
-							<div class="col_1_of_3 span_1_of_3">
-								<ul class="icon1">
-										<div class="desc">
-											<h4  class="boxy2">What My Clients say</h4>
-											<p>Testimonials and <span>awards</span></p>
-										</div>
-										<div class="clear"></div>
-									</li>
-								</ul>
-							</div>
-							<div class="col_1_of_3 span_1_of_3">
-								<ul class="icon1">
-										<div class="desc">
-											<h5>Anghe A.</h5>
-											<small>CEO & Founder TOUCH MEDIA</small>
-											<p class="cursive">"Great service. I love how fast I get  what I want.And don't even get me started about the skil.Clearly better than all the designers I've worked with"</p>
-										</div>
-										<div class="clear"></div>
-									</li>
-								</ul>
-							</div>
-							<div class="clear"></div>
+			        <div class="box1">
+						<div class="col_1_of_3 span_1_of_3">
+							<ul class="icon1">
+								<li><h4  class="red">Visi&oacute;n</h4><br />
+									<center><small>Consolidar nuestro liderazgo en la comercializaci&oacute;n de productos de alta calidad que satisfagan la amplia gama de exigencia expresadas por nuestros clientes, contando con un equipo humano capacitado y enfocado a la excelencia y mejoramiento continuo en servicio de la comunidad.</small></center>
+								</li>
+									<div class="desc">
+									</div>
+									<div class="clear"></div>
+								</li>
+							</ul>
 						</div>
+						<div class="clear"></div>
+					</div>
 			    </figure>
 				<figure class="item">
 			      <div class="box1">
 							<div class="col_1_of_3 span_1_of_3">
+								<br />
 								<ul class="icon1">
-									<li><h4 class="boxy2">915</h4>
-										<small>Projects</small>
-									</li>
-									<li><h4>652</h4>
-										<small>Clients</small>
-									</li>
-									<li><h4>2578</h4>
-										<small>Coffe Cups</small>
+									<li><center><h4 class="red">Valores</h4></center><br />
+										<center><small>
+											
+												<small>&Eacute;tica profesional</small><br />
+												<small>Honestidad</small><br />
+												<small>Puntualidad</small><br />
+												<small>Compromiso</small><br />
+												<small>Esp&iacute;ritu de Servicio</small>
+										</small></center>
 									</li>
 										<div class="desc">
-										</div>
-										<div class="clear"></div>
-									</li>
-								</ul>
-							</div>
-							<div class="col_1_of_3 span_1_of_3">
-								<ul class="icon1">
-										<div class="desc">
-											<h4>What My Clients say</h4>
-											<p>Testimonials and <span>awards</span></p>
-										</div>
-										<div class="clear"></div>
-									</li>
-								</ul>
-							</div>
-							<div class="col_1_of_3 span_1_of_3">
-								<ul class="icon1">
-										<div class="desc">
-											<h5>Anghe A.</h5>
-											<small>CEO & Founder TOUCH MEDIA</small>
-											<p class="cursive">"Great service. I love how fast I get  what I want.And don't even get me started about the skil.Clearly better than all the designers I've worked with"</p>
 										</div>
 										<div class="clear"></div>
 									</li>

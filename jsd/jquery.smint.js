@@ -37,8 +37,8 @@ If you like Smint, or have suggestions on how it could be improved, send me a tw
 
 			//Fill the menu
 			var id = $(this).attr("id");
-			console.log("id: "+ ($("div."+id).position().top - menuHeight)+ ", Position: " + $("div."+id).position().top + ",id: "+ id );
 			optionLocs.push(Array($("div."+id).position().top-menuHeight, $("div."+id).height()+$("div."+id).position().top, id));
+
 			///////////////////////////////////
 
 			// get initial top offset for the menu 
@@ -49,25 +49,21 @@ If you like Smint, or have suggestions on how it could be improved, send me a tw
 
 				// current distance top
 				var scrollTop = $(window).scrollTop(); 
-				//console.log(scrollTop);
 
-				// if we scroll more than the navigation, change its position to fixed and add class 'fxd', 
-				//otherwise change it back to absolute and remove the class
+				// if we scroll more than the navigation, change its position to fixed and add class 'fxd', otherwise change it back to absolute and remove the class
 				if (scrollTop > stickyTop) { 
 					$('.smint').css({ 'position': 'fixed', 'top':0 }).addClass('fxd');	
 				} else {
 					$('.smint').css({ 'position': 'absolute', 'top':stickyTop }).removeClass('fxd'); 
 				}   
 
-
 				//Check if the position is inside then change the menu
 				// Courtesy of Ryan Clarke (@clarkieryan)
+
+
 				if(optionLocs[index][0] <= scrollTop && scrollTop <= optionLocs[index][1]){	
-					if(direction == "up" && index<4){
+					if(direction == "up"){
 						$("#"+id).addClass("active");
-						console.log("id: "+id);
-						console.log("index: "+index);
-						console.log("optionLocs["+index+"]["+2+"]="+$("#"+optionLocs[index+1][2]));
 						$("#"+optionLocs[index+1][2]).removeClass("active");
 					} else if(index > 0) {
 						$("#"+id).addClass("active");
@@ -77,7 +73,7 @@ If you like Smint, or have suggestions on how it could be improved, send me a tw
 					}
 					$.each(optionLocs, function(i){
 						if(id != optionLocs[i][2]){
-							console.log(i + optionLocs[i][2]);
+							console.log(i);
 							$("#"+optionLocs[i][2]).removeClass("active");
 						}
 					});
@@ -98,14 +94,14 @@ If you like Smint, or have suggestions on how it could be improved, send me a tw
 				}
 				lastScrollTop = st;
 				stickyMenu(direction);
-				console.log(direction);
 
 				// Check if at bottom of page, if so, add class to last <a> as sometimes the last div
 				// isnt long enough to scroll to the top of the page and trigger the active state.
+
 				if($(window).scrollTop() + $(window).height() == $(document).height()) {
-	       			$('.smint a').removeClass('active')
-	       			$('.smint a').last().addClass('active')
-	   			}
+       			$('.smint a').removeClass('active')
+       			$('.smint a').last().addClass('active')
+   }
 			});
 
 			///////////////////////////////////////
