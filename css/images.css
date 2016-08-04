@@ -1,0 +1,177 @@
+.ca-item{
+	position:relative;
+	float:left;
+	width:315px;
+	height:100%;
+	text-align:center;
+}
+.ca-item-main{
+	position: absolute;
+	top: 5px;
+	left:60px;
+	right: 15px;
+	bottom: 5px;
+	overflow: hidden;
+}
+div[class^='icon-']{
+	width:100%;
+	height: 200px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	background-size:contain;
+}
+/*Insumos*/
+.icon-insumo1{
+	background: transparent url(../images/productos/insumos/CABESTRILLO.jpg) no-repeat center center;
+}
+.icon-insumo2{
+	background: transparent url(../images/productos/insumos/GUANTES.jpg) no-repeat center center;
+}
+.icon-insumo3{
+	background: transparent url(../images/productos/insumos/BISTURI.jpg) no-repeat center center;
+}
+.icon-insumo4{
+	background: transparent url(../images/productos/insumos/CATHETER.jpg) no-repeat center center;
+}
+.icon-insumo5{
+	background: transparent url(../images/productos/insumos/ESPINOCAN.jpg) no-repeat center center;
+}
+.icon-insumo6{
+	background: transparent url(../images/productos/insumos/llave3v.jpg) no-repeat center center;
+}
+.icon-insumo7{
+	background: transparent url(../images/productos/insumos/PERICAN.jpg) no-repeat center center;
+}
+.icon-insumo8{
+	background: transparent url(../images/productos/insumos/CATHETER.jpg) no-repeat center center;
+}
+.icon-insumo9{
+	background: transparent url(../images/productos/insumos/ESPINOCAN.jpg) no-repeat center center;
+}
+.icon-insumo10{
+	background: transparent url(../images/productos/insumos/llave3v.jpg) no-repeat center center;
+}
+.icon-insumo11{
+	background: transparent url(../images/productos/insumos/PERICAN.jpg) no-repeat center center;
+}
+.icon-insumo12{
+	background: transparent url(../images/productos/insumos/GUANTES.jpg) no-repeat center center;
+}
+.icon-insumo13{
+	background: transparent url(../images/productos/insumos/CABESTRILLO.jpg) no-repeat center center;
+}
+.icon-insumo14{
+	background: transparent url(../images/productos/insumos/CABESTRILLO.jpg) no-repeat center center;
+}
+.icon-insumo15{
+	background: transparent url(../images/productos/insumos/ESPINOCAN.jpg) no-repeat center center;
+}
+.icon-insumo16{
+	background: transparent url(../images/productos/insumos/llave3v.jpg) no-repeat center center;
+}
+/*Medicinas*/
+.icon-medicina1{
+	background: transparent url(../images/productos/medicinas/biosano/dexametasona.jpg) no-repeat center center;
+}
+.icon-medicina2{
+	background: transparent url(../images/productos/medicinas/biosano/dobutamina.jpg) no-repeat center center;
+}
+.icon-medicina3{
+	background: transparent url(../images/productos/medicinas/biosano/fitomenadiona.jpg) no-repeat center center;
+}
+.icon-medicina4{
+	background: transparent url(../images/productos/medicinas/biosano/morfina.jpg) no-repeat center center;
+}
+.icon-medicina5{
+	background: transparent url(../images/productos/medicinas/fresenius-sanderson/acido_ascorbico.jpg) no-repeat center center;
+}
+.icon-medicina6{
+	background: transparent url(../images/productos/medicinas/fresenius-sanderson/agua_bidestilada.jpg) no-repeat center center;
+}
+.icon-medicina7{
+	background: transparent url(../images/productos/medicinas/fresenius-sanderson/aminofilina.jpg) no-repeat center center;
+}
+.icon-medicina8{
+	background: transparent url(../images/productos/medicinas/fresenius-sanderson/aminofilina.jpeg) no-repeat center center;
+}
+.icon-medicina9{
+	background: transparent url(../images/productos/medicinas/otros/buridop_pesado.jpg) no-repeat center center;
+}
+.icon-medicina10{
+	background: transparent url(../images/productos/medicinas/otros/dexametrazona.jpg) no-repeat center center;
+}
+.icon-medicina11{
+	background: transparent url(../images/productos/medicinas/otros/fitomenadiona.jpg) no-repeat center center;
+}
+.icon-medicina12{
+	background: transparent url(../images/productos/medicinas/otros/metronidazol.jpg) no-repeat center center;
+}
+.icon-medicina13{
+	background: transparent url(../images/productos/medicinas/vitalis/amikacina.jpg) no-repeat center center;
+}
+.icon-medicina14{
+	background: transparent url(../images/productos/medicinas/vitalis/cetriaxona.jpg) no-repeat center center;
+}
+.icon-medicina15{
+	background: transparent url(../images/productos/medicinas/vitalis/diclofenaco_de_sodio.jpg) no-repeat center center;
+}
+.icon-medicina16{
+	background: transparent url(../images/productos/medicinas/vitalis/gentamicina.jpg) no-repeat center center;
+}
+.icon-medicina17{
+	background: transparent url(../images/productos/medicinas/vitalis/fenitoina_sodica.jpg) no-repeat center center;
+}
+.icon-medicina18{
+	background: transparent url(../images/productos/medicinas/vitalis/imipenen_cilastatina.jpg) no-repeat center center;
+}
+/*Equipos*/
+.icon-equipo1{
+	background: transparent url(../images/productos/equipos/accucheck.jpg) no-repeat center center;
+}
+.icon-equipo2{
+	background: transparent url(../images/productos/equipos/bombas_vlpa92.jpg) no-repeat center center;
+}
+.icon-equipo3{
+	background: transparent url(../images/productos/equipos/bombas_vlst01.jpg) no-repeat center center;
+}
+.icon-equipo4{
+	background: transparent url(../images/productos/equipos/chailone.jpg) no-repeat center center;
+}
+.icon-equipo5{
+	background: transparent url(../images/productos/equipos/estetoscopio.jpg) no-repeat center center;
+}
+.icon-equipo6{
+	background: transparent url(../images/productos/equipos/hemovac.png) no-repeat center center;
+}
+.icon-equipo7{
+	background: transparent url(../images/productos/equipos/nebulizador.jpg) no-repeat center center;
+}
+.icon-equipo8{
+	background: transparent url(../images/productos/equipos/tensiometro.jpg) no-repeat center center;
+}
+.icon-equipo9{
+	background: transparent url(../images/productos/equipos/ESPINOCAN.jpg) no-repeat center center;
+}
+.icon-equipo10{
+	background: transparent url(../images/productos/equipos/llave3v.jpg) no-repeat center center;
+}
+.icon-equipo11{
+	background: transparent url(../images/productos/equipos/PERICAN.jpg) no-repeat center center;
+}
+.icon-equipo12{
+	background: transparent url(../images/productos/equipos/GUANTES.jpg) no-repeat center center;
+}
+.icon-equipo13{
+	background: transparent url(../images/productos/equipos/CABESTRILLO.jpg) no-repeat center center;
+}
+.icon-equipo14{
+	background: transparent url(../images/productos/equipos/CABESTRILLO.jpg) no-repeat center center;
+}
+.icon-equipo15{
+	background: transparent url(../images/productos/equipos/ESPINOCAN.jpg) no-repeat center center;
+}
+.icon-equipo16{
+	background: transparent url(../images/productos/equipos/llave3v.jpg) no-repeat center center;
+}

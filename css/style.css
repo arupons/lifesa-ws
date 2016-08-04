@@ -113,7 +113,7 @@ ul.social li i.sc5:hover{
 /*---- Header part Starts Here -----*/
 /*----- Navigation part starts Here ---*/
 .navbar-custom {
-	background: #e58028;/*#202428;*/
+	background: #202428;
 }
 .subMenu {
 	position: absolute;
@@ -150,11 +150,6 @@ a#sTop {
  /*------navigation part Ends Here--*/
 /*------ Services Part Starts Here ----*/
 .services{
-	background:url(../images/ser-bg.jpg)no-repeat;
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
 	text-align: center;
 	padding:5em 0;
 }
@@ -253,25 +248,69 @@ a#sTop {
 	margin-top:5px;
 }
 /*------ Services Part Ends Here ----*/
-/*----- Work Starts Here ----------*/
-.work{
+/*----- Equipos Starts Here ----------*/
+.equipos{
 	padding:5em 0;
 }
-.work-top{
+.equipos-top{
 	text-align: center;
 	padding: 10px 0px 50px 0px;
 }
-.work-top h3{
+.equipos-top h3{
 	font-weight: 800;
 	font-size:70px;
 	color: #709a80;
 }
-.work-top small{
+.equipos-top small{
 	font-weight:400;
 	font-size:30px;
 	color:#a5deba;
 }
-.work-top small span{
+.equipos-top small span{
+	font-weight:800;
+	color:#a5deba;
+}
+/*----- insumos Starts Here ----------*/
+.insumos{
+	padding:5em 0;
+}
+.insumos-top{
+	text-align: center;
+	padding: 10px 0px 50px 0px;
+}
+.insumos-top h3{
+	font-weight: 800;
+	font-size:70px;
+	color: #709a80;
+}
+.insumos-top small{
+	font-weight:400;
+	font-size:30px;
+	color:#a5deba;
+}
+.insumos-top small span{
+	font-weight:800;
+	color:#a5deba;
+}
+/*----- medicinas Starts Here ----------*/
+.medicinas{
+	padding:5em 0;
+}
+.medicinas-top{
+	text-align: center;
+	padding: 10px 0px 50px 0px;
+}
+.medicinas-top h3{
+	font-weight: 800;
+	font-size:70px;
+	color: #709a80;
+}
+.medicinas-top small{
+	font-weight:400;
+	font-size:30px;
+	color:#a5deba;
+}
+.medicinas-top small span{
 	font-weight:800;
 	color:#a5deba;
 }
@@ -290,78 +329,6 @@ a#sTop {
 	height: 100%;
 	position: relative;
 	left:27px;
-}
-.ca-item{
-	position:relative;
-	float:left;
-	width:315px;
-	height:100%;
-	text-align:center;
-}
-.ca-item-main{
-	position: absolute;
-	top: 5px;
-	left:60px;
-	right: 15px;
-	bottom: 5px;
-	overflow: hidden;
-}
-div[class^='ca-icon']{
-	width:100%;
-	height: 200px;
-	display: block;
-	position: relative;
-	margin: 0 auto;
-	margin-bottom: 5px;
-	background-size:contain;
-}
-.ca-icon1{
-	background: transparent url(../images/productos/CABESTRILLO.jpg) no-repeat center center;
-}
-.ca-icon2{
-	background: transparent url(../images/productos/GUANTES.jpg) no-repeat center center;
-}
-.ca-icon3{
-	background: transparent url(../images/productos/BISTURI.jpg) no-repeat center center;
-}
-.ca-icon4{
-	background: transparent url(../images/productos/CATHETER.jpg) no-repeat center center;
-}
-.ca-icon5{
-	background: transparent url(../images/productos/ESPINOCAN.jpg) no-repeat center center;
-}
-.ca-icon6{
-	background: transparent url(../images/productos/llave3v.jpg) no-repeat center center;
-}
-.ca-icon7{
-	background: transparent url(../images/productos/PERICAN.jpg) no-repeat center center;
-}
-.ca-icon8{
-	background: transparent url(../images/productos/CATHETER.jpg) no-repeat center center;
-}
-.ca-icon9{
-	background: transparent url(../images/productos/ESPINOCAN.jpg) no-repeat center center;
-}
-.ca-icon10{
-	background: transparent url(../images/productos/llave3v.jpg) no-repeat center center;
-}
-.ca-icon11{
-	background: transparent url(../images/productos/PERICAN.jpg) no-repeat center center;
-}
-.ca-icon12{
-	background: transparent url(../images/productos/GUANTES.jpg) no-repeat center center;
-}
-.ca-icon13{
-	background: transparent url(../images/productos/CABESTRILLO.jpg) no-repeat center center;
-}
-.ca-icon14{
-	background: transparent url(../images/productos/CABESTRILLO.jpg) no-repeat center center;
-}
-.ca-icon15{
-	background: transparent url(../images/productos/ESPINOCAN.jpg) no-repeat center center;
-}
-.ca-icon16{
-	background: transparent url(../images/productos/llave3v.jpg) no-repeat center center;
 }
 /*.ca-item-2 .ca-icon{
 	background-image:url(../images/pic10.jpg);
