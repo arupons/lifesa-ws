@@ -14,7 +14,7 @@ body{
 }
 /*---- Header part Starts Here -----*/
 .header{
-	background: url(../images/bg.jpg)no-repeat;
+	background: url(../images/bgx.jpg)no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -33,24 +33,7 @@ body{
 	margin-bottom: 10px;
 }
 .subNavBtn {}
-ul.social li{
-	display: inline-block;
-}
-ul.social li i{
-	width:24px;
-	height:24px;
-	background:url(../images/img-sprite.png) no-repeat;
-	display: inline-block;
-	cursor:pointer;
-	margin: 0px 2px;
-	padding: 0px;
-}
-ul.social li i:hover{
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-}
+
 .header-bottom a img {
 	margin-top:2em;
 }
@@ -58,37 +41,6 @@ ul.social li i:hover{
 	font-weight: 400;
 	color: #000;
 	font-size: 1.2em;
-}
-
-ul.social li i.sc1{
-	background-position:-6px 2px;
-}
-ul.social li i.sc1:hover{
-	background-position:-6px -24px;
-}
-ul.social li i.sc2{
-	background-position:-31px 2px;
-}
-ul.social li i.sc2:hover{
-	background-position:-31px -24px;
-}
-ul.social li i.sc3{
-	background-position:-56px 2px;
-}
-ul.social li i.sc3:hover{
-	background-position:-56px -24px;
-}
-ul.social li i.sc4{
-	background-position:-79px 2px;
-}
-ul.social li i.sc4:hover{
-	background-position:-79px -24px;
-}
-ul.social li i.sc5{
-	background-position:-104px 2px;
-}
-ul.social li i.sc5:hover{
-	background-position:-104px -24px;
 }
 .header-bottom{
 	padding:3em 0 1.5em;
@@ -113,7 +65,7 @@ ul.social li i.sc5:hover{
 /*---- Header part Starts Here -----*/
 /*----- Navigation part starts Here ---*/
 .navbar-custom {
-	background: #202428;
+	background: #e58028;/*#202428;*/
 }
 .subMenu {
 	position: absolute;
@@ -129,7 +81,7 @@ ul.social li i.sc5:hover{
 }
 a#sTop {
 	float: left;
-	width: 45%;
+	width: 38%;
 }
 .right-msg span{
 	width: 216px;
@@ -155,6 +107,8 @@ a#sTop {
 }
 .services-row{
 	padding:20px 0px;
+	vertical-align: middle;
+	margin: auto;
 }	
 .services-row h3{
 	font-weight: 800;
@@ -173,7 +127,7 @@ a#sTop {
 .services-row-column i.icon1{
 	width: 180px;
 	height: 180px;
-	background: url(../images/img-resources1.png) no-repeat 30px 8px #414042;
+	background: url(../images/sprite-productos.svg) no-repeat 20px 13px #414042;
 	border-radius:130px;
 	 -webkit-border-radius:130px;
     -moz-border-radius:130px;
@@ -185,7 +139,7 @@ a#sTop {
 .services-row-column i.icon2{
 	width:180px;
 	height:180px;
-	background:url(../images/img-resources1.png) no-repeat -135px 10px  #414042;
+	background:url(../images/sprite-productos.svg) no-repeat -133px 12px  #414042;
 	border-radius:130px;
 	-webkit-border-radius:130px;
     -moz-border-radius:130px;
@@ -197,7 +151,8 @@ a#sTop {
 .services-row-column i.icon3{
 	width:180px;
 	height:180px;
-	background:url(../images/img-resources1.png) no-repeat -301px 14px #414042;
+	/*background:url(../images/img-resources1.png) no-repeat -301px 14px #414042;*/
+	background:url(../images/sprite-productos.svg) no-repeat -288px 14px #414042;
 	border-radius:130px;
 	-webkit-border-radius:130px;
     -moz-border-radius:130px;
@@ -455,6 +410,7 @@ ul.icon1 li h4{
 }
 h4.red{
 	color:red;
+	text-align: center;
 }
 ul.icon1 li small{
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -628,6 +584,12 @@ ul.icon1 li small{
 /*--- Footer part Starts Here ------*/
 /*--- Media Queries Starts Here ----*/
 @media (max-width:1280px){
+	#imagenFlotante {
+  bottom:10px;
+  right:0px;
+  position: fixed;
+}
+#imagenFlotante a img { border: none; }
 }
 @media (max-width:1024px){
 	.header{

@@ -1,0 +1,49 @@
+ul.social li{
+	display: inline-block;
+}
+ul.social li i{
+	width:25px;
+	height:25px;
+	background:url(../images/social-sprites.svg) no-repeat;
+	display: inline-block;
+	cursor:pointer;
+	margin: 0px 2px;
+	padding: 0px;
+}
+ul.social li i:hover{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+ul.social li i.sc1:hover{
+	background-position:0px 2px;
+}
+ul.social li i.sc1{
+	background-position:0px -24px;
+}
+ul.social li i.sc2:hover{
+	background-position:-25px 2px;
+}
+ul.social li i.sc2{
+	background-position:-25px -24px;
+}
+ul.social li i.sc3:hover{
+	background-position:-50px 2px;
+}
+ul.social li i.sc3{
+	background-position:-50px -24px;
+}
+ul.social li i.sc4:hover{
+	background-position:-79px 2px;
+}
+ul.social li i.sc4{
+	background-position:-79px -24px;
+}
+ul.social li i.sc5:hover{
+	background-position:-104px 2px;
+}
+ul.social li i.sc5{
+	background-position:-104px -24px;
+}
